@@ -48,7 +48,7 @@ group :production do
   gem 'rails_12factor'
 end
  
-group :development do
+group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
   gem 'web-console', '~> 2.0'

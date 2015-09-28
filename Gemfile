@@ -57,6 +57,6 @@ end
 gem 'faker'
 gem 'devise'
 
-
+gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
 
 gem 'figaro', '1.0' 
